@@ -51,16 +51,6 @@ Fine-tuning using CANINE shows an inefficient performance.
 To cite this work in your publications in BibTeX format:
 
 ```
-@inproceedings{wolf2020transformers,
-  title={Transformers: State-of-the-art natural language processing},
-  author={Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\'e}mi and Funtowicz, Morgan and others},
-  booktitle={Proceedings of the 2020 conference on empirical methods in natural language processing: system demonstrations},
-  pages={38--45},
-  year={2020}
-}
-```
-
-```
 @article{clark2021canine,
   title={Canine: Pre-training an efficient tokenization-free encoder for language representation},
   author={Clark, Jonathan H and Garrette, Dan and Turc, Iulia and Wieting, John},
@@ -69,6 +59,15 @@ To cite this work in your publications in BibTeX format:
 }
 ```
 
+```
+@inproceedings{wolf2020transformers,
+  title={Transformers: State-of-the-art natural language processing},
+  author={Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\'e}mi and Funtowicz, Morgan and others},
+  booktitle={Proceedings of the 2020 conference on empirical methods in natural language processing: system demonstrations},
+  pages={38--45},
+  year={2020}
+}
+```
 
 ### Used materials and 3rd party code
 The experiments are based on the [*huggingface*](https://github.com/huggingface/transformers) library and the paper "Canine: Pre-training an efficient tokenization-free encoder for language representation" by Jonathan H. Clark, Dan Garrette, Iulia Turc, John Wieting [[paper]](https://arxiv.org/pdf/2103.06874.pdf).
