@@ -1,6 +1,6 @@
 # BERT vs CANINE on NLP tasks
 
-__This repository aims at presenting CANINE fine-tuning experiments and compare it to BERT on some NLP tasks based on the paper cited in the [Citation](#citation) section.__
+__This repository aims at presenting CANINE fine-tuning experiments and compare it to BERT on some NLP tasks based on the papers cited in the [Citation](#citation) section.__
 
 Three Jupyter Notebooks are provided to reproduce the results that are presented in the [Results for SST-2](#Results-for-sst-2), [Results for SQuAD](#Results-for-SQuAD), and [Results for CoLA](#results-for-cola). They can be directly launched in Google Colab from here:
 
@@ -13,8 +13,9 @@ A [report](./report.pdf) has been made to give an overview of the paper cited in
 
 
 ## Results for [SST-2](https://nlp.stanford.edu/sentiment/index.html)
-For the accuracy results, larger is better.
 The results below present a comparison between BERT and CANINE on the SST-2 task.
+For the accuracy results, larger is better.
+
 | Model           |Input     | Training Loss | Evaluation Loss | Accuracy
 |---              |---       |---            |---    					 |---      
 BERT         			| Subwords | 0.060         | 0.334           | 0.927
@@ -24,8 +25,9 @@ CANINE-C          | Chars    | 0.169         | 0.572           | 0.856
 BERT outperforms both CANINE-S and CANINE-C by +0.076 and +0.071 accuracy respectively. CANINE-C improves over CANINE-S by a 0.005 --negligible-- accuracy.
 
 ## Results for [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
-For the F1-score, larger is better.
 The results below present a comparison between BERT and CANINE on SQuAD.
+For the F1-score, larger is better.
+
 | Model           |Input     | Training Loss | Evaluation Loss | Exact Match |F1-score
 |---              |---       |---            |---    					 |---          |---
 BERT         			| Subwords | 0.773         | 1.157           | 76.746      | 85.134
@@ -35,8 +37,9 @@ CANINE-C          | Chars    | 0.664         | 1.355           | 72.375      | 8
 BERT outperforms both CANINE-C and CANINE-S by +2.834 F1 and +2.951 F1 respectively
 
 ## Results for [CoLA](https://nyu-mll.github.io/CoLA/)
-For the Matthes Correlation results (ranges between -1 and 1): 1 indicates perfect match, -1 is indicates perfect disagreement, and 0 indicates uninformed guessing.
 The results below present a comparison between BERT and CANINE on the CoLA task.
+For the Matthes Correlation results (ranges between -1 and 1): 1 indicates perfect match, -1 is indicates perfect disagreement, and 0 indicates uninformed guessing.
+
 | Model           |Input     | Training Loss | Evaluation Loss | Matthes Correlation
 |---              |---       |---            |---    					 |---      
 BERT         			| Subwords | 0.149         | 0.766           | 0.565
