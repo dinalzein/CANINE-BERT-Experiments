@@ -6,6 +6,8 @@ Three Jupyter Notebooks are provided to reproduce the results that are presented
 
 - <a href="https://colab.research.google.com/github/dinalzein/CANINE-BERT-Experiments/blob/main/SST2_experiments.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> for [SST-2](https://nlp.stanford.edu/sentiment/index.html) task.  
 
+- <a href="https://colab.research.google.com/github/dinalzein/CANINE-BERT-Experiments/blob/main/SQUAD_experiments.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> for [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) task.  
+
 - <a href="https://colab.research.google.com/github/dinalzein/CANINE-BERT-Experiments/blob/main/CoLA_experiments.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> for [CoLA](https://nyu-mll.github.io/CoLA/) task.  
 
 
